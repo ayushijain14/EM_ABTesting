@@ -11,7 +11,7 @@ body {
   /* The image used */
   
   /*  Comment the below line of code to achieve A/B Testing */
-		//background-image: url("${pageContext.request.contextPath}/images/business-bills.jpg"); 
+		/*background-image: url("${pageContext.request.contextPath}/images/business-bills.jpg"); */
   
   /* Uncomment the below eight lines of code to achieve A/B Testing */
   <c:choose>
