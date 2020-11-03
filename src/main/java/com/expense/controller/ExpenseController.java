@@ -44,8 +44,8 @@ public class ExpenseController {
 		model.addAttribute("user", user);
 		
 		//Uncomment the below two lines of code to achieve A/B Testing 
-		//model.addAttribute("currency", user.getCurrency());
-		//log.info("User currency: " + user.getCurrency());
+	         model.addAttribute("currency", user.getCurrency());
+		 log.info("User currency: " + user.getCurrency());
 		return "home.jsp";
 	}
 
