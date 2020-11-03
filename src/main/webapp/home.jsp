@@ -11,9 +11,9 @@ body {
   /* The image used */
   
   /*  Comment the below line of code to achieve A/B Testing */
-		background-image: url("${pageContext.request.contextPath}/images/business-bills.jpg"); 
+		//background-image: url("${pageContext.request.contextPath}/images/business-bills.jpg"); 
   
-  /* Uncomment the below eight lines of code to achieve A/B Testing
+  /* Uncomment the below eight lines of code to achieve A/B Testing */
   <c:choose>
 	  <c:when test="${currency == 'INR'}">
 	  		background-image: url("${pageContext.request.contextPath}/images/business-bills.jpg");
@@ -22,7 +22,7 @@ body {
 	  		background-image: url("${pageContext.request.contextPath}/images/dollars.jpg");
 	  </c:otherwise>
   </c:choose>
-  */
+  
   
   /* Full height */
   height: 100%; 
