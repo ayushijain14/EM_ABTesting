@@ -10,7 +10,7 @@
 body { 
   /* The image used */
   
-  /*  Uncomment the below line of code to achieve normal flow 
+  /*  Comment the below line of code to achieve A/B Testing */
 		background-image: url("${pageContext.request.contextPath}/images/business-bills.jpg"); 
   
   /* Uncomment the below eight lines of code to achieve A/B Testing
